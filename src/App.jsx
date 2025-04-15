@@ -4,7 +4,7 @@ function App() {
  
   return (
     <>
-      <p>Hello React</p>
+      <p class = 'underline text-red-800 text-8xl '>Hello React</p>
       <div>
         <p>Hello World</p>
         <p>Hello World</p>
