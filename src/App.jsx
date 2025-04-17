@@ -1,15 +1,15 @@
 import './App.css' // To import the appcss code. 
+import Home from './pages/Home';
+import About from './pages/About';
 
 function App() {
- 
+
   return (
     <>
-      <p class = 'underline text-red-800 text-8xl '>Hello React</p>
-      <div>
-        <p>Hello World</p>
-        <p>Hello World</p>
-        <p>Hello World</p>
-      </div>
+      <Home/>
+      <About/>
+
+
     </>
   )
 }
