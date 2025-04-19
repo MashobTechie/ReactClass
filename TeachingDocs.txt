@@ -1,0 +1,2 @@
+JSX is a declarative syntax that describes what a component look like and how they work .
+Components must return a block of JSX . Each JSX element is converted to plain HTML , CSS and JS by barbel package which comes with the create react app. 
