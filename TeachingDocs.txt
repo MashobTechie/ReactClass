@@ -1,2 +1,12 @@
-JSX is a declarative syntax that describes what a component look like and how they work .
-Components must return a block of JSX . Each JSX element is converted to plain HTML , CSS and JS by barbel package which comes with the create react app. 
+ const hour = new Date().getHours(); // To be the logic in the Footer 
+ const openHour = 12;
+ const closeHour = 22
+
+ if (hour >= openHour && hour <= closeHour ){
+    alert ('We're currently open!)
+    else{
+        alert ('Sorry, we're closed!')
+    }
+ }
+
+new Date().toLocaleTimeString()  // To get the current time in the footer

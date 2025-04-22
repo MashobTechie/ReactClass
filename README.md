@@ -17,6 +17,11 @@ Day 4: Working with components, props and JSX
 - Talk about debugging skills in react 
 - Components as building blocks
 - Creating and reusing a component
+Day 5: What is JSX 
+- Explaining how a component consists of Data, Logic and Apperarance 
+Day 6: Creating complex components and using them 
+- Creating the pizza landing page as a project
+- Logic in components
 
 
  
