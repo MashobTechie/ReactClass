@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Navbar = () => {
-    return (<section className=' bg-orange-100'>
+    return (<section className=' bg-orange-100 font-serif'>
         <section className='flex justify-center items-center h-16 bg-orange-100'>
             <nav className='flex justify-between items-center w-4/5 text-green-700  m-0 bg-orange-100'>
                 <div className='flex items-center'>
@@ -27,7 +27,7 @@ const Navbar = () => {
                 </div>
             </nav>
         </section>
-        <hr className=' bg-black'
+        <hr className=' bg-gray-300'
             style={{
                 'height': '2px',
                 'border': 'none',
