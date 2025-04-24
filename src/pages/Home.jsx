@@ -5,10 +5,10 @@ const Home = () => {
     return (
         <>
             <Navbar />
-            
+
 
         </>
     )
 }
 
-export default Home
+export default Home; 

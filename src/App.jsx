@@ -8,14 +8,9 @@ function App() {
   return (
     <>
 
-      {/* <Home/> */}
-      {/* <About/> */}
+      <Home/>
 
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
+     
      
     </>
 
