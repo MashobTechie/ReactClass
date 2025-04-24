@@ -39,6 +39,8 @@ const products = [
         stock: 23,
         rating: 4.8
     },
+
+    
     {
         id: 5,
         name: "Yoga Mat",
