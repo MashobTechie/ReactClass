@@ -1,12 +1,2 @@
- const hour = new Date().getHours(); // To be the logic in the Footer 
- const openHour = 12;
- const closeHour = 22
-
- if (hour >= openHour && hour <= closeHour ){
-    alert ('We're currently open!)
-    else{
-        alert ('Sorry, we're closed!')
-    }
- }
-
-new Date().toLocaleTimeString()  // To get the current time in the footer
+https://dribbble.com/shots/25648035-Unicusine-Retail-E-Commerce-Website-Menu 
+URL for the assignment
