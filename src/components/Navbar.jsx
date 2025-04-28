@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
     return (<section className=' bg-orange-100 font-serif'>
         <section className='flex justify-center items-center h-16 bg-orange-100'>
-            <nav className='flex justify-between items-center w-4/5 text-green-700  m-0 bg-orange-100'>
+            <nav className='flex justify-between items-center w-4/5 text-green-900  m-0 bg-orange-100'>
                 <div className='flex items-center'>
                     <h2 className='text-2xl font-bold'>Logo</h2>
                 </div>
