@@ -9,7 +9,7 @@ const OurCulture = () => {
 
 
             <div className='image-row flex flex-wrap justify-center gap-12 ' style={{
-                marginTop:'20px'
+                marginTop: '20px'
             }}>
                 <img src={ourImage} className="h-38 object-cover" style={{
                     borderRadius: '20px',

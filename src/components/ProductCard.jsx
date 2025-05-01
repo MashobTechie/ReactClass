@@ -1,17 +1,18 @@
 import React from 'react';
-import Pizza from '../assets/premium_photo-1661762555601-47d088a26b50.avif';
  
-const ProductCard = () => {
-    return (
-        <div>
-            <img src= {Pizza} alt=""  className='w-[200px] h-full'/>
 
-            <h2>Pizza Spinnacci</h2>
-            <p>Contains tomato, mozarella, spinnach , and ricotta cheese</p>
+const ProductCard = (props) => {
+    console.log(props)
+    return (
+        <div className='flex flex-col items-center justify-center'>
+        <img src={props.image} className='w-20'/>
+            <h2>{props.name}</h2>
+            <p>{props.ingredients}</p>
+
+            <h3>{props.price}</h3>
         </div>
     )
 }
 
 export default ProductCard;
 
-// props
