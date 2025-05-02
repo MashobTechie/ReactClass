@@ -16,7 +16,7 @@ const Hero = () => {
             }>
                 <h1 className="text-5xl text-green-900 font-serif ">Dive Into Delicious <br />Meal Dishes</h1>
                 <div className="image-row flex flex-wrap justify-center gap-4" style={{
-                    marginTop: '60px'
+                    marginTop: '50px'
                 }}>
                     <img src={PizzaImage} alt="Dish 1" className="h-40 object-cover" style={{
                         borderRadius: '20px',
