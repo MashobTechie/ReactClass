@@ -26,3 +26,5 @@ Day 4: Working with components, props and JSX
 - JSX wrks exactly like HTML
 - We can use {} and JS methods like map, ternary operator etc in JSX
 - Statements like for loop , if else are not allowed
+
+Day 8: Rendering lists  using map
