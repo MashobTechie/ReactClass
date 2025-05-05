@@ -97,16 +97,16 @@
 
 
 
-// export default Footer;
+// export default Footer; 
 import React from 'react'
 
 const Footer = () => {
-const openHour = 9;
-const closeHour = 22;
-const currentHour = new Date().getHours();
-console.log(currentHour);
-const isOpen = currentHour >= openHour && currentHour <= closeHour;
-console.log(isOpen);
+  const openHour = 9;
+  const closeHour = 22;
+  const currentHour = new Date().getHours();
+  console.log(currentHour);
+  const isOpen = currentHour >= openHour && currentHour <= closeHour;
+  console.log(isOpen);
 
 
 
@@ -124,22 +124,4 @@ console.log(isOpen);
 
 export default Footer
 
-
-
-
-// // const hour = new Date().getHours();
-// const openHour = 12;
-// const closeHour = 22;
-// const isOpen = hour >= openHour && hour <= closeHour;
-// console.log(isOpen);
-
-// return(
-//   <footer>
-//     {/* {new Date.toLocaleTimeString()}. We are currently open */}
-
-//     {
-//       isOpen && <p>We are open until {closeHour}:00 </p>
-//     }
-//   </footer>
-// )
 

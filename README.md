@@ -1,3 +1,4 @@
+ SECTION 1
 First React Project
 Introduction to React
 Introduction to tailwind CSS
@@ -6,7 +7,6 @@ React Props
 JSX
 Rendering Lists
 Conditional Rendering
-State and state management
 
 // Day 1: Introduction to react and creating react app
 Day 2: Introduction to tailwind
@@ -28,3 +28,13 @@ Day 4: Working with components, props and JSX
 - Statements like for loop , if else are not allowed
 
 Day 8: Rendering lists  using map
+Conditional Rendering with &&
+
+SECTION 2
+State and state management
+Handling Events
+State to update the UI
+Building Forms the Reeact Way
+Controlled Elements 
+
+Day 9: Building a steps component

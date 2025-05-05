@@ -26,8 +26,7 @@ const Menu = () => {
 
       /> */}
 
-      {/* <ProductCard
-              image={ourMeal}
+      {/* <ProductCard image={ourMeal}
 />
       <ProductCard/>
       <ProductCard/>
@@ -53,7 +52,7 @@ const Menu = () => {
       </ul>
 
 
-    
+
 
     </div>
 
