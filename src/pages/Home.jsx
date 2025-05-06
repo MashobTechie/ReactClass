@@ -4,16 +4,22 @@ import Hero from '../components/Hero'
 import Menu from '../components/Menu'
 import OurCulture from '../components/OurCulture'
 import Footer from '../components/Footer'
-
+import Steps from '../components/Steps'
 
 const Home = () => {
     return (
         <>
+            {/* REACT FUNDAMENTALS & TAILWIND CSS STYLING */}
             {/* <Navbar /> */}
-            <Hero />
+            {/* <Hero /> */}
             {/* <Menu /> */}
             {/* <OurCulture /> */}
-            <Footer />
+            {/* <Footer /> */}
+
+            {/* STATE MANAGEMENT< FORM HANDLING */}
+<Steps/>
+
+
 
         </>
     )

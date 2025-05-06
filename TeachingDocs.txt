@@ -1,6 +1,31 @@
-https://dribbble.com/shots/25648035-Unicusine-Retail-E-Commerce-Website-Menu 
-URL for the assignment
+Create the steps UI
+Use ternary operator to show the steps dynamically
+Us efunction on the buttons
+Show them how to use inline function (eg. onClick ) and how it differentiates from normal js
+Show them not to invoke a funcion if they create it outside
+
+Sate is basically a data that a comonent that hold overtime, necessary for information that it needs to remember throughout the app's lifecycle. It is the coponents's memory. Give examples
+Note that updating the state riggers react tp re-render the component
+
+State allows developers to :
+a. Update the component's view by re-rendering it
+b. Persist local variables between renders
+
+Steps to creating a state in react:
+1. Always import useState from react
+Create a state variable using the usestate keyword. 
+2. Use the state variable in the code in the jsx.
+3. Update the piece of state in event handler. 
 
 
+The usestate function always return two thins: the value you gave it, and the function that will be used to  update the component view. 
+That's why we aslso we have those two things:
+const [step setStep] = useState(1)
 
-Create a profileCard
+. make the buttons next and previuos work
+. handle the bug using conditional statement
+
+
+any react kwyword starting with use like usestate,usereducer is called a hook. and we can only use hooks at the top level of the component function. 
+
+ 
