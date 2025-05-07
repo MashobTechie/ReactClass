@@ -1,4 +1,7 @@
- SECTION 1
+# React Project Overview
+
+<!--  -->
+SECTION 1
 First React Project
 Introduction to React
 Introduction to tailwind CSS
@@ -35,6 +38,12 @@ State and state management
 Handling Events
 State to update the UI
 Building Forms the Reeact Way
-Controlled Elements 
+Controlled Elements
 
 Day 9: Building a steps component
+Handling events in react
+What is state and why do we need it
+
+Day10: Dont set state manually
+Mechanics of state
+Adding another piece of state

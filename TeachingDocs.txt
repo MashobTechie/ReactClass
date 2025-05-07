@@ -1,31 +1,87 @@
-Create the steps UI
-Use ternary operator to show the steps dynamically
-Us efunction on the buttons
-Show them how to use inline function (eg. onClick ) and how it differentiates from normal js
-Show them not to invoke a funcion if they create it outside
-
-Sate is basically a data that a comonent that hold overtime, necessary for information that it needs to remember throughout the app's lifecycle. It is the coponents's memory. Give examples
-Note that updating the state riggers react tp re-render the component
-
-State allows developers to :
-a. Update the component's view by re-rendering it
-b. Persist local variables between renders
-
-Steps to creating a state in react:
-1. Always import useState from react
-Create a state variable using the usestate keyword. 
-2. Use the state variable in the code in the jsx.
-3. Update the piece of state in event handler. 
+Explain why we cant just use step = step + 1 for the updated part, so we now use the useState(setStep) that react provides because if you use the frmr , react doesnt know we've upated it.
+Explain how we cant manipulate DOM because React is declarative. But how can a component be updated? 
+Ans: React update a component view by re-rendering the entire component whenever the data changes . 
+It is when a state is updated, that's when a compoent is re-rendered 
 
 
-The usestate function always return two thins: the value you gave it, and the function that will be used to  update the component view. 
-That's why we aslso we have those two things:
-const [step setStep] = useState(1)
+import React, { useState } from 'react'
+import '../styles/style.css'
 
-. make the buttons next and previuos work
-. handle the bug using conditional statement
+// function handlePreviuos() {
+//     alert('Previous')
+// }
+const messages = [
+    'Learn react',
+    'Apply for jobs',
+    'Invest your new income'
+]
+
+// useState, useReducer -- Hooks
 
 
-any react kwyword starting with use like usestate,usereducer is called a hook. and we can only use hooks at the top level of the component function. 
+const Steps = () => {
+    // let arr = useState()
+    // console.log(arr);
 
- 
+    // const [step, useStep] = 1;
+    // const step = 1
+    const [step, setStep] = useState(1);
+
+    const [isOpen, setIsOpen] = useState(true) // name the state variable. 
+
+
+
+
+
+    return (
+
+
+
+
+       <div>
+<button className='close' onClick={() => setIsOpen(!isOpen)}>
+&times;
+
+</button/>
+
+
+
+
+       {isOpen && (
+
+ <div className='steps'>
+
+            <div className="numbers" >
+                <div className={`${step >= 1 ? 'active' : ''}`}>1</div>
+                <div className={`${step >= 2 ? 'active' : ''}`}>2</div>
+                <div className={`${step >= 3 ? 'active' : ''}`}>3</div>
+            </div>
+
+
+            <p className="message">Step {step}: {messages[step - 1]}  </p>
+
+            <div className="buttons" >
+                <button className='previous bg-purple-700 text-white' onClick={() => {
+                    if (step > 1) {
+                        setStep(step - 1)
+                    }
+                }} >Previous</button>
+                <button
+                    className='next bg-purple-700 text-white'
+                    onClick={() => {
+                        if (step < 3) {
+                            setStep(step + 1)
+                        }
+                    }}
+
+
+                >Next</button>
+            </div>
+        </div>
+       )
+       
+       </div>}
+    )
+}
+
+export default Steps
