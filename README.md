@@ -1,6 +1,7 @@
 # React Project Overview
 
 <!--  -->
+
 SECTION 1
 First React Project
 Introduction to React
@@ -30,7 +31,7 @@ Day 4: Working with components, props and JSX
 - We can use {} and JS methods like map, ternary operator etc in JSX
 - Statements like for loop , if else are not allowed
 
-Day 8: Rendering lists  using map
+Day 8: Rendering lists using map
 Conditional Rendering with &&
 
 SECTION 2
@@ -47,3 +48,17 @@ What is state and why do we need it
 Day10: Dont set state manually
 Mechanics of state
 Adding another piece of state
+Day 11: Travel List Project
+
+<!--
+TraveList CSS
+
+/*
+const initialItems = [
+  { id: 1, description: "Passports", quantity: 2, packed: false },
+  { id: 2, description: "Socks", quantity: 12, packed: false },
+];
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Quicksand:wght@500;700&display=swap");
+
