@@ -171,3 +171,8 @@ input {
   gap: 1.2rem;
 }
 
+input[type="checkbox"] {
+  height: 2rem;
+  width: 2rem;
+  accent-color: #e5771f;
+}
