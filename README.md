@@ -176,3 +176,20 @@ input[type="checkbox"] {
   width: 2rem;
   accent-color: #e5771f;
 }
+
+.list li button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  padding: 0.8rem;
+  transform: translateY(2px);
+}
+
+.stats {
+  background-color: #76c7ad;
+  text-align: center;
+  font-weight: 700;
+  padding: 3.2rem 0;
+}
+ -->
