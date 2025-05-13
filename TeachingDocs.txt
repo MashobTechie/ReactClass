@@ -1,87 +1,10 @@
-Explain why we cant just use step = step + 1 for the updated part, so we now use the useState(setStep) that react provides because if you use the frmr , react doesnt know we've upated it.
-Explain how we cant manipulate DOM because React is declarative. But how can a component be updated? 
-Ans: React update a component view by re-rendering the entire component whenever the data changes . 
-It is when a state is updated, that's when a compoent is re-rendered 
-
-
-import React, { useState } from 'react'
-import '../styles/style.css'
-
-// function handlePreviuos() {
-//     alert('Previous')
-// }
-const messages = [
-    'Learn react',
-    'Apply for jobs',
-    'Invest your new income'
-]
-
-// useState, useReducer -- Hooks
-
-
-const Steps = () => {
-    // let arr = useState()
-    // console.log(arr);
-
-    // const [step, useStep] = 1;
-    // const step = 1
-    const [step, setStep] = useState(1);
-
-    const [isOpen, setIsOpen] = useState(true) // name the state variable. 
+  
 
 
 
-
-
-    return (
-
-
-
-
-       <div>
-<button className='close' onClick={() => setIsOpen(!isOpen)}>
-&times;
-
-</button/>
-
-
-
-
-       {isOpen && (
-
- <div className='steps'>
-
-            <div className="numbers" >
-                <div className={`${step >= 1 ? 'active' : ''}`}>1</div>
-                <div className={`${step >= 2 ? 'active' : ''}`}>2</div>
-                <div className={`${step >= 3 ? 'active' : ''}`}>3</div>
-            </div>
-
-
-            <p className="message">Step {step}: {messages[step - 1]}  </p>
-
-            <div className="buttons" >
-                <button className='previous bg-purple-700 text-white' onClick={() => {
-                    if (step > 1) {
-                        setStep(step - 1)
-                    }
-                }} >Previous</button>
-                <button
-                    className='next bg-purple-700 text-white'
-                    onClick={() => {
-                        if (step < 3) {
-                            setStep(step + 1)
-                        }
-                    }}
-
-
-                >Next</button>
-            </div>
-        </div>
-       )
-       
-       </div>}
-    )
-}
-
-export default Steps
+/*
+const initialItems = [
+  { id: 1, description: "Passports", quantity: 2, packed: false },
+  { id: 2, description: "Socks", quantity: 12, packed: false },
+];
+*/

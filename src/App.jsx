@@ -1,15 +1,16 @@
 import './App.css' // To import the appcss code. 
-import Home from './pages/Home';
-import About from './pages/About';
-import ProductCard from './components/ProductCard';
+ import TravelList from './pages/TravelList';
+
+ import './styles/style.css' // To import the style code.
+ 
 
 function App() {
 
   return (
     <>
 
-      <Home/>
-
+      {/* <Home/> */}
+      <TravelList/>
      
      
     </>
