@@ -1,8 +1,9 @@
 import './App.css' // To import the appcss code. 
  import TravelList from './pages/TravelList';
 
- import './styles/style.css' // To import the style code.
+//  import './styles/style.css' // To import the style code.
  
+import FormHandling from './components/FormHandling';
 
 function App() {
 
@@ -10,8 +11,8 @@ function App() {
     <>
 
       {/* <Home/> */}
-      <TravelList/>
-     
+      {/* <TravelList/> */}
+     <FormHandling/>
      
     </>
 

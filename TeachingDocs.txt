@@ -1,10 +1,4 @@
   
 
 
-
-/*
-const initialItems = [
-  { id: 1, description: "Passports", quantity: 2, packed: false },
-  { id: 2, description: "Socks", quantity: 12, packed: false },
-];
-*/
+ Create a signup page that consists of user details, on click on submit: log the userdetails to the console and the oass the directory to another website iof your choice. 
