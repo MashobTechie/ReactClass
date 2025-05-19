@@ -12,6 +12,8 @@ const FormHandling = () => {
 
         console.log(blog);
 
+        
+
 
     }
 

@@ -1,4 +1,4 @@
-# React Tutor Overview
+# React Tutorial Overview
 
 <!--  -->
 
@@ -52,10 +52,13 @@ Day 11: Travel List Project
 
 - Rendering the items list manually
 
- Day 12: Solution to the project
+Day 12: Solution to the project
 
 Day 13: Form Handling (Adding Blog)
 
 - Set up state for the form
 - Use the present state as the value and use the future state as the anonymous fuction onChange while targetting the value
 - SubmittinG Form: use e.preventDefault from making the page reload when you click on submit
+
+Day 14: React Router
+Day 15: Hooks and Custom Hooks
